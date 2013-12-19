@@ -31,7 +31,7 @@
     "composer/installers": "v1.0.6",
     "wp-cli/wp-cli": "v0.13.0",
     "vlucas/phpdotenv": "1.0.2",
-    "wpackagist/wp-db-driver": "*",
+    "wpackagist/wp-db-driver": "1.6",
     "mattwellss/wp-plates-base": "dev-master"
   },
   "extra": {

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "afd4c197ed85ff1008edb311ca36e3e5",
+    "hash": "7f8df1516369907f2ad2c848b35e0e29",
     "packages": [
         {
             "name": "composer/installers",
@@ -543,10 +543,10 @@
         },
         {
             "name": "wpackagist/wp-db-driver",
-            "version": "trunk",
+            "version": "1.6",
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-db-driver.zip",
+                "url": "http://downloads.wordpress.org/plugin/wp-db-driver.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
