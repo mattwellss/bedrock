@@ -1,4 +1,8 @@
 {
+  "name": "mattwellss/bedrock",
+  "description": "Boilerplate WordPress installation",
+  "version": "1.1.0-dev",
+  "license": "GPL-2.0",
   "repositories": [
     {
       "type": "composer",
