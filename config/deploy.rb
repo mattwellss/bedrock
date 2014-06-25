@@ -17,17 +17,18 @@ set :deploy_to, "/srv/www/#{fetch(:application)}"
 set :log_level, :info
 
 set :linked_files, %w{.env}
-set :linked_dirs, %w{app/uploads}
+set :linked_dirs, %w{web/app/uploads}
 
 namespace :deploy do
-
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      # This task is required by Capistrano but can be a no-op
       # Your restart mechanism here, for example:
       # execute :service, :nginx, :reload
     end
   end
-
 end
+
+# The above restart task is not run by default
+# Uncomment the following line to run it on deploys if needed
+# after 'deploy:publishing', 'deploy:restart'

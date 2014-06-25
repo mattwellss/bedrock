@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "5675c51edd933021a274a20befa8ed31",
+    "hash": "6f80962dd6b26ba429f9108ee3926d40",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,12 +126,12 @@
             "version": "1.0.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-loep/Plates.git",
+                "url": "https://github.com/thephpleague/plates.git",
                 "reference": "95a2443409f455ece373c5c7b5aaf03e4bb1537d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-loep/Plates/zipball/95a2443409f455ece373c5c7b5aaf03e4bb1537d",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/95a2443409f455ece373c5c7b5aaf03e4bb1537d",
                 "reference": "95a2443409f455ece373c5c7b5aaf03e4bb1537d",
                 "shasum": ""
             },
@@ -211,16 +212,16 @@
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.5.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "dd528e765afcaaae20ce3bebdda3162456d93b47"
+                "reference": "1430ca884912eaba2b3830856b45685733b16789"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/dd528e765afcaaae20ce3bebdda3162456d93b47",
-                "reference": "dd528e765afcaaae20ce3bebdda3162456d93b47",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/1430ca884912eaba2b3830856b45685733b16789",
+                "reference": "1430ca884912eaba2b3830856b45685733b16789",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +253,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2013-12-14 20:57:43"
+            "time": "2014-06-20 19:34:49"
         },
         {
             "name": "rhumsaa/array_column",
@@ -281,7 +282,8 @@
             "authors": [
                 {
                     "name": "Ben Ramsey",
-                    "homepage": "http://benramsey.com"
+                    "homepage": "http://benramsey.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Provides functionality for array_column() to projects using PHP earlier than version 5.5.",
@@ -295,16 +297,16 @@
         },
         {
             "name": "rmccue/requests",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmccue/Requests.git",
-                "reference": "756374edd59ac69268ed35481a506ebd4e732525"
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmccue/Requests/zipball/756374edd59ac69268ed35481a506ebd4e732525",
-                "reference": "756374edd59ac69268ed35481a506ebd4e732525",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/6aac485666c2955077d77b796bbdd25f0013a4ea",
+                "reference": "6aac485666c2955077d77b796bbdd25f0013a4ea",
                 "shasum": ""
             },
             "require": {
@@ -340,21 +342,21 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2013-10-06 13:30:32"
+            "time": "2014-05-18 04:59:02"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.4.0",
+            "version": "v2.5.0",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "72356bf0646b11af1bae666c28a639bd8ede459f"
+                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/72356bf0646b11af1bae666c28a639bd8ede459f",
-                "reference": "72356bf0646b11af1bae666c28a639bd8ede459f",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/307aad2c541bbdf43183043645e186ef2cd6b973",
+                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +365,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -378,7 +380,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -387,7 +391,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-26 16:40:27"
+            "time": "2014-05-22 13:47:45"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -420,7 +424,8 @@
                 {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com"
+                    "homepage": "http://www.vancelucas.com",
+                    "role": "Developer"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -433,11 +438,11 @@
             "time": "2013-08-12 19:16:15"
         },
         {
-            "name": "wordpress",
-            "version": "3.8",
+            "name": "wordpress/wordpress",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/3.8.zip",
+                "url": "https://wordpress.org/wordpress-3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -544,6 +549,11 @@
         {
             "name": "wpackagist/wp-db-driver",
             "version": "1.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-db-driver/",
+                "reference": "tags/1.6"
+            },
             "dist": {
                 "type": "zip",
                 "url": "http://downloads.wordpress.org/plugin/wp-db-driver.1.6.zip",
@@ -554,7 +564,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/extend/plugins/wp-db-driver"
+            "homepage": "http://wordpress.org/plugins/wp-db-driver/"
         }
     ],
     "packages-dev": [
@@ -568,7 +578,7 @@
         "mattwellss/wp-plates-base": 20
     },
     "platform": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.2"
     },
     "platform-dev": [
 
