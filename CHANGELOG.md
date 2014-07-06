@@ -1,3 +1,7 @@
+### 1.2.5: 2014-07-06
+
+* Update to 3.9.1
+
 ### 1.2.4: 2014-04-17
 
 * Fixes issue with 3.9 update (`composer.lock` wasn't updated)

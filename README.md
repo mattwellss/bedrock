@@ -70,8 +70,8 @@ To skip the scripts completely, `create-project` can be run with `--no-scripts` 
   * `WP_HOME` - Full URL to WordPress home (http://example.com)
   * `WP_SITEURL` - Full URL to WordPress including subdirectory (http://example.com/wp)
 4. Add theme(s)
-4. Set your Nginx or Apache vhost to `/path/to/site/web/` (`/path/to/site/current/web/` if using Capistrano)
-5. Access WP Admin at `http://example.com/wp/wp-admin`
+5. Set your Nginx or Apache vhost to `/path/to/site/web/` (`/path/to/site/current/web/` if using Capistrano)
+6. Access WP Admin at `http://example.com/wp/wp-admin`
 
 Using Capistrano for deploys?
 

@@ -1,8 +1,7 @@
 {
   "name": "mattwellss/bedrock",
-  "version": "1.2.4-dev",
+  "version": "1.2.5",
   "license": "MIT",
-  "name": "roots/bedrock",
   "type": "project",
   "description": "A modern WordPress stack",
   "homepage": "http://roots.io/wordpress-stack/",
@@ -64,9 +63,9 @@
     "php": ">=5.3.2",
     "wordpress/wordpress": "3.9.1",
     "fancyguy/webroot-installer": "1.1.0",
-    "composer/installers": "v1.0.6",
+    "composer/installers": "v1.0.12",
+    "vlucas/phpdotenv": "~1.0.6",
     "wp-cli/wp-cli": "v0.13.0",
-    "vlucas/phpdotenv": "1.0.2",
     "wpackagist/wp-db-driver": "1.6",
     "mattwellss/wp-plates-base": "dev-master"
   },
