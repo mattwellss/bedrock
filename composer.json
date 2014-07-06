@@ -1,7 +1,8 @@
 {
-  "name": "roots/bedrock",
-  "type": "project",
+  "name": "mattwellss/bedrock",
+  "version": "1.2.5",
   "license": "MIT",
+  "type": "project",
   "description": "A modern WordPress stack",
   "homepage": "http://roots.io/wordpress-stack/",
   "authors": [
@@ -39,6 +40,10 @@
       "url": "http://wpackagist.org"
     },
     {
+      "type": "vcs",
+      "url": "https://github.com/mattwellss/wp-plates-base.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress/wordpress",
@@ -46,7 +51,7 @@
         "type": "webroot",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip"
+          "url": "https://wordpress.org/wordpress-3.9.1.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.1.0"
@@ -59,7 +64,10 @@
     "wordpress/wordpress": "3.9.1",
     "fancyguy/webroot-installer": "1.1.0",
     "composer/installers": "v1.0.12",
-    "vlucas/phpdotenv": "~1.0.6"
+    "vlucas/phpdotenv": "~1.0.6",
+    "wp-cli/wp-cli": "v0.13.0",
+    "wpackagist/wp-db-driver": "1.6",
+    "mattwellss/wp-plates-base": "dev-master"
   },
   "extra": {
     "installer-paths": {

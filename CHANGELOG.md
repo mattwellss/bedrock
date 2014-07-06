@@ -1,3 +1,7 @@
+### 1.2.5: 2014-07-06
+
+* Update to 3.9.1
+
 ### 1.2.4: 2014-04-17
 
 * Fixes issue with 3.9 update (`composer.lock` wasn't updated)
@@ -31,6 +35,10 @@
 
 * Update to Capistrano 3.1.0: `deploy:restart` is no longer run by default
 * Better webroot structure: introduces the `/web` directory as the document/web root for web server vhosts
+
+#### mattwellss/bedrock branch
+* Require wp-db-driver
+* Require wp-plates-base
 
 ### 1.0.0: 2013-12-18
 
